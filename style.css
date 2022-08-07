@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #F1F0EE;
+}
+.container {
+    border: 1px solid rgb(221, 221, 221);
+    margin-left: 190px;
+    margin-right: 190px;
+    background-color: #fff;
+    padding-bottom: 150px;
+}
+marquee {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #fff;
+    background-color: #767676;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+.brand a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #159AA4;
+}
+.brand p {
+    color: #757575e1;
+    font-size: 14px;
+    line-height: 25px;
+}
+.skyBox{
+    display: flex;
+    justify-content: center;
+}
+.skyblue{
+    width: 98%;
+    height: 30px;
+    background-color: #159AA4;
+}
+.button-group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.button-group button {
+    padding: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    color: #189AA3;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer {
+    margin-top: 5px;
+    margin-left: 190px;
+}
